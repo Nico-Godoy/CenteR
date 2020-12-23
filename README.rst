@@ -2,7 +2,10 @@ CenteR - centering and frame selection
 ======================================
 
 .. image:: https://img.shields.io/badge/R--cran-3.5.1-brightgreen
+    :target: https://www.r-project.org/
 
+.. image:: https://img.shields.io/badge/license-MIT-blue
+    :target: https://github.com/Nioc-Godoy/CenteR/main/LICENSE
 
 Introduction
 ------------
