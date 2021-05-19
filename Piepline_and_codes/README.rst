@@ -1,6 +1,8 @@
 
-``CenteR'' core files used in the main code sequence:
+Description of core files:
 ----------
+
+``CenteR`` core files used in the main code sequence:
 
 - Processing_Data_v10.R / Processing_Data_v11.R
    Program to correct the files by cosmetics. The program do not recognize both photometric and science observations with more than 2 different exposure times.
@@ -19,7 +21,6 @@
    - The output corresponds to the file 'Final_table_complete_information_v7.txt', containing the information of the science frames, the modeling and the result of the fitting.
    The code require a certain numbers of cores, due to the process is optimized and wroten to run in parallel processes.
 
---------------------------------
 
    External codes to compute the PCA using PynPoint. These codes are constructed to use the full dataset with different combination of centers:
 - PIC_v12_mod_DB_coro.R
@@ -39,17 +40,17 @@
 - PI_v14_DB_star.R
    Using for the PCA the AGPM center an then to de-rotate and stack the frames the star location.
 
---------------------------------
 
    The 'Master_file.R' corresponds to an example of how to use the codes together, and the variables that must be specified for.
 
 
---------------------------------
-
 Requiriments:
+----------
 
+``CenteR`` require the previous instalation of the next:
 - R-cran installed
 - Python 3 installed
+
 R-cran can be installed follow the instructions in the link: https://cran.r-project.org/
 
 For example, using the terminal in Linux should be:
