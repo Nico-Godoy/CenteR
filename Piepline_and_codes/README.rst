@@ -54,9 +54,10 @@ Requiriments:
 R-cran can be installed follow the instructions in the link: https://cran.r-project.org/
 
 For example, using the terminal in Linux should be:
-sudo apt update
-sudo apt install r-base
-sudo apt install build-essential
+.. code-block:: bash
+  $ sudo apt update
+  $ sudo apt install r-base
+  $ sudo apt install build-essential
 
 for Python, you can see the download/instalation here: https://www.python.org/downloads/
 
@@ -77,23 +78,20 @@ It is possible to install the packages directly from R-cran or downloading the s
 From R-cran, open a terminal and then write R + ENTER:
 You will see in the terminal something like:
 
-``R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+.. code-block:: R
+R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
-
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
 Type 'license()' or 'licence()' for distribution details.
-
   Natural language support but running in an English locale
-
 R is a collaborative project with many contributors.
 Type 'contributors()' for more information and
 'citation()' on how to cite R or R packages in publications.
-
 Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.''
+Type 'q()' to quit R.
 
 Then copy the follow commands one by one:
 
