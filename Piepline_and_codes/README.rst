@@ -40,8 +40,8 @@ External codes to compute the PCA using PynPoint. These codes are constructed to
 - **PI_v14_DB_star.R**
    Using for the PCA the AGPM center an then to de-rotate and stack the frames the star location.
 
-
-   The **Master_file.R** corresponds to an example of how to use the codes together, and the variables that must be specified for.
+- **Master_file.R**
+   Corresponds to an example of how to use the codes together, and the variables that must be specified for.
 
 
 Requiriments:
@@ -84,7 +84,8 @@ From R-cran, open a terminal and then write R + ENTER:
 You will see in the terminal something like:
 
 .. code-block:: R
-R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+
+*R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 Copyright (C) 2020 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 R is free software and comes with ABSOLUTELY NO WARRANTY.
@@ -96,7 +97,7 @@ Type 'contributors()' for more information and
 'citation()' on how to cite R or R packages in publications.
 Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.
+Type 'q()' to quit R.*
 
 
 
@@ -157,5 +158,5 @@ You can install in Linux, for exmaple, using the following commands:
 
 
 
-The code use therminal commands, so it is strongly recommended to run CenteR pipeline in Linux.
+**The code use therminal commands, so it is strongly recommended to run CenteR pipeline in Linux.**
 
