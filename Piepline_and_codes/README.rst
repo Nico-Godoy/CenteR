@@ -63,15 +63,6 @@ For example, using the terminal in Linux should be:
   $ sudo apt install build-essential
 
 
-.. code-block:: R
-
-  $ sudo apt update
-  $ sudo apt install r-base
-  $ sudo apt install build-essential
-
-
-
-
 
 for Python, you can see the download/instalation here: https://www.python.org/downloads/
 
@@ -113,17 +104,17 @@ Type 'q()' to quit R.
 Then copy the follow commands one by one:
 
 .. code-block:: R
-install.packages('FITSio', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('astro', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('fields', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('astroFns', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('abind', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('IM', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('mvtnorm', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('plot3D', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
-install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('FITSio', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('astro', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('fields', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('astroFns', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('abind', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('IM', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('mvtnorm', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('plot3D', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  $ install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
 
 
 
