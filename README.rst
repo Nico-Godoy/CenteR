@@ -1,4 +1,4 @@
-CenteR - centering and frame selection
+``CenteR`` - centering and frame selection
 ======================================
 
 .. image:: https://img.shields.io/badge/R--cran-3.5.1-brightgreen
