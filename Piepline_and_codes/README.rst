@@ -133,7 +133,13 @@ with *path_to_file* the source of the respective pakcage.
 
 some packages (*astro*, *h5*, *doParallel*) could have some problems with the instalation.
 In general, using the source-package solves the problem, or using:
-install.packages('astro')
+
+.. code-block:: R
+
+  $ install.packages('astro')
+
+
+
 then, selecting the 'old' mirror [0] in the displayed window.
 There are more options to install the packages. Always R-cran will indicate the problem in the terminal, for example, a specific packages in needed for the instalation of one specific package. In that case, you need to install this before continue.
 
@@ -143,7 +149,13 @@ In addition, you must have installed:
 - ephem
 - numpy
 You can install in Linux, for exmaple, using the following commands:
-sudo pip install matplotlib ephem numpy
+
+.. code-block:: bash
+
+  $ sudo pip3 install matplotlib ephem numpy
+
+
+
 
 The code use therminal commands, so it is strongly recommended to run CenteR pipeline in Linux.
 
