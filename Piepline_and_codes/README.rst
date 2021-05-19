@@ -106,17 +106,17 @@ Then copy the follow commands one by one:
 
 .. code-block:: R
 
-  $ install.packages('FITSio', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('astro', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('fields', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('astroFns', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('abind', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('IM', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('mvtnorm', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('plot3D', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
-  $ install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('FITSio', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('astro', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('fields', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('astroFns', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('abind', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('IM', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('mvtnorm', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('plot3D', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
+  > install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
 
 
 
@@ -126,7 +126,7 @@ Then, writen in R-cran terminal:
 
 .. code-block:: R
 
-  $ install.packages(path_to_file, repos = NULL, type="source")
+  > install.packages(path_to_file, repos = NULL, type="source")
 
 
 
@@ -137,7 +137,7 @@ In general, using the source-package solves the problem, or using:
 
 .. code-block:: R
 
-  $ install.packages('astro')
+  > install.packages('astro')
 
 
 
