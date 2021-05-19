@@ -122,7 +122,13 @@ Then copy the follow commands one by one:
 
 or via source-package, downloading from: https://cran.r-project.org/web/packages/available_packages_by_name.html
 Then, writen in R-cran terminal:
-install.packages(path_to_file, repos = NULL, type="source")
+
+.. code-block:: R
+
+  $ install.packages(path_to_file, repos = NULL, type="source")
+
+
+
 with path_to_file the source of the respective pakcage.
 
 some packages (astro, h5, doParallel) could have some problems with the instalation.
