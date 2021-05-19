@@ -69,6 +69,7 @@ CenteR R-cran codes need the next packages:
 - plot3D
 - doParallel
 - h5
+- rPython
 
 It is possible to install the packages directly from R-cran or downloading the source-package.
 From R-cran, open a terminal and then write R + ENTER:
@@ -105,6 +106,7 @@ install.packages('mvtnorm', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('plot3D', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
+install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
 
 or via source-package, downloading from: https://cran.r-project.org/web/packages/available_packages_by_name.html
 Then, writen in R-cran terminal:
@@ -118,7 +120,12 @@ then, selecting the 'old' mirror [0] in the displayed window.
 There are more options to install the packages. Always R-cran will indicate the problem in the terminal, for example, a specific packages in needed for the instalation of one specific package. In that case, you need to install this before continue.
 
 From Python, you need to install PynPoint. You can follow the steps from the oficial webpage: https://pynpoint.readthedocs.io/en/latest/installation.html
-In addition, you must have installed matplotlib
+In addition, you must have installed:
+- matplotlib
+- ephem
+- numpy
+You can install in Linux, for exmaple, using the following commands:
+sudo pip install matplotlib ephem numpy
 
 The code use therminal commands, so it is strongly recommended to run CenteR pipeline in Linux.
 
