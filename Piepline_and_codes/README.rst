@@ -62,9 +62,12 @@ For example, using the terminal in Linux should be:
 
 
 .. code-block:: bash
+
   $ sudo apt update
   $ sudo apt install r-base
   $ sudo apt install build-essential
+
+
 
 for Python, you can see the download/instalation here: https://www.python.org/downloads/
 
