@@ -54,6 +54,7 @@ Requiriments:
 R-cran can be installed follow the instructions in the link: https://cran.r-project.org/
 
 For example, using the terminal in Linux should be:
+
 .. code-block:: bash
   $ sudo apt update
   $ sudo apt install r-base
