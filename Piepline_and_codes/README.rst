@@ -22,7 +22,7 @@ Description of core files:
    The code require a certain numbers of cores, due to the process is optimized and wroten to run in parallel processes.
 
 
-   External codes to compute the PCA using PynPoint. These codes are constructed to use the full dataset with different combination of centers:
+External codes to compute the PCA using PynPoint. These codes are constructed to use the full dataset with different combination of centers:
 - PIC_v12_mod_DB_coro.R
    Use in both the PCA and de-rotate and stack the frames, the AGPM center
 - PIC_v12_mod_DB_coro__STACK.R
