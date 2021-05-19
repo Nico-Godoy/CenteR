@@ -104,6 +104,7 @@ Type 'q()' to quit R.
 Then copy the follow commands one by one:
 
 .. code-block:: R
+
   $ install.packages('FITSio', dependencies=TRUE, repos='http://cran.rstudio.com/')
   $ install.packages('astro', dependencies=TRUE, repos='http://cran.rstudio.com/')
   $ install.packages('fields', dependencies=TRUE, repos='http://cran.rstudio.com/')
@@ -115,6 +116,7 @@ Then copy the follow commands one by one:
   $ install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
   $ install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
   $ install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
+
 
 
 
