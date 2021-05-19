@@ -56,6 +56,12 @@ R-cran can be installed follow the instructions in the link: https://cran.r-proj
 For example, using the terminal in Linux should be:
 
 .. code-block:: bash
+
+    $ pip install vip_hci
+
+
+
+.. code-block:: bash
   $ sudo apt update
   $ sudo apt install r-base
   $ sudo apt install build-essential
