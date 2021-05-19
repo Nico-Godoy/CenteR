@@ -23,25 +23,25 @@ Description of core files:
 
 
 External codes to compute the PCA using PynPoint. These codes are constructed to use the full dataset with different combination of centers:
-- PIC_v12_mod_DB_coro.R
+- **PIC_v12_mod_DB_coro.R**
    Use in both the PCA and de-rotate and stack the frames, the AGPM center
-- PIC_v12_mod_DB_coro__STACK.R
+- **PIC_v12_mod_DB_coro__STACK.R**
    The same than the previous one, but stacking sequence of frames.
-- PIC_v12_mod_DB_only_star.R
+- **PIC_v12_mod_DB_only_star.R**
    Use in both cases the position of the star.
-- PIC_v12_mod_DB_star.R
+- **PIC_v12_mod_DB_star.R**
    Use first the AGPM position to performce PCA, and then the star location to de-rotate and stack all the frames.
 
    External codes to compute the PCA using PynPoint. These codes are constructed to use frame selection with different combination of centers:
-- PI_v14_DB_coro.R
+- **PI_v14_DB_coro.R**
    Using for the PCA and de-rotate and stack the frames the AGPM center.
-- PI_v14_DB_only_star.R
+- **PI_v14_DB_only_star.R**
    Using for the PCA and de-rotate and stack the frames the star location.
-- PI_v14_DB_star.R
+- **PI_v14_DB_star.R**
    Using for the PCA the AGPM center an then to de-rotate and stack the frames the star location.
 
 
-   The 'Master_file.R' corresponds to an example of how to use the codes together, and the variables that must be specified for.
+   The **Master_file.R** corresponds to an example of how to use the codes together, and the variables that must be specified for.
 
 
 Requiriments:
@@ -129,9 +129,9 @@ Then, writen in R-cran terminal:
 
 
 
-with path_to_file the source of the respective pakcage.
+with *path_to_file* the source of the respective pakcage.
 
-some packages (astro, h5, doParallel) could have some problems with the instalation.
+some packages (*astro*, *h5*, *doParallel*) could have some problems with the instalation.
 In general, using the source-package solves the problem, or using:
 install.packages('astro')
 then, selecting the 'old' mirror [0] in the displayed window.
