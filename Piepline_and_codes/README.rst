@@ -55,11 +55,6 @@ R-cran can be installed follow the instructions in the link: https://cran.r-proj
 
 For example, using the terminal in Linux should be:
 
-.. code-block:: bash
-
-    $ pip install vip_hci
-
-
 
 .. code-block:: bash
 
@@ -103,9 +98,12 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+
+
+
 Then copy the follow commands one by one:
 
-
+.. code-block:: R
 install.packages('FITSio', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('astro', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('fields', dependencies=TRUE, repos='http://cran.rstudio.com/')
@@ -117,6 +115,8 @@ install.packages('plot3D', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('doParallel', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('h5', dependencies=TRUE, repos='http://cran.rstudio.com/')
 install.packages('rPython', dependencies=TRUE, repos='http://cran.rstudio.com/')
+
+
 
 or via source-package, downloading from: https://cran.r-project.org/web/packages/available_packages_by_name.html
 Then, writen in R-cran terminal:
