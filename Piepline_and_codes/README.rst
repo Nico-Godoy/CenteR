@@ -12,13 +12,15 @@ Description of core files:
 - Fitting_2D_Nor_v8.R
    Contain the program to obtain both the AGPM and circular aperture centers in the sky frames.
    In addition, determine the center of the circular aperture in the science frames.
-   - The input are the FITS files arealdy corrected by current dark, flat field, bad pixels, both with and without sky subtraction, and the text file with the summary of the FITS files.
-   - The outputs are a serie of text files with the information about the fitting for the both cases.
+   
+    - The input are the FITS files arealdy corrected by current dark, flat field, bad pixels, both with and without sky subtraction, and the text file with the summary of the FITS files.
+    - The outputs are a serie of text files with the information about the fitting for the both cases.
 
 - Finding_Star_Pos_Parallel_v12.R / Finding_Star_Pos_Parallel_v12b.R
    Program to fit the negative and positive 2D gaussians, modeling the torus shape. 
-   - The inputs are all the outputs of previous steps.
-   - The output corresponds to the file 'Final_table_complete_information_v7.txt', containing the information of the science frames, the modeling and the result of the fitting.
+   
+    - The inputs are all the outputs of previous steps.
+    - The output corresponds to the file 'Final_table_complete_information_v7.txt', containing the information of the science frames, the modeling and the result of the fitting.
    The code require a certain numbers of cores, due to the process is optimized and wroten to run in parallel processes.
 
 
@@ -33,7 +35,8 @@ External codes to compute the PCA using PynPoint. These codes are constructed to
 - **PIC_v12_mod_DB_star.R**
    Use first the AGPM position to performce PCA, and then the star location to de-rotate and stack all the frames.
 
-   External codes to compute the PCA using PynPoint. These codes are constructed to use frame selection with different combination of centers:
+External codes to compute the PCA using PynPoint. These codes are constructed to use frame selection with different combination of centers:
+
 - **PI_v14_DB_coro.R**
    Using for the PCA and de-rotate and stack the frames the AGPM center.
 - **PI_v14_DB_only_star.R**
