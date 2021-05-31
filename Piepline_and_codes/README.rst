@@ -71,6 +71,7 @@ For example, using the terminal in Linux should be:
 for Python, you can see the download/instalation here: https://www.python.org/downloads/
 
 CenteR R-cran codes need the next packages:
+
 - FITSio
 - astro
 - fields
