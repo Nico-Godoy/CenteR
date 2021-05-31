@@ -152,13 +152,15 @@ In general, using the source-package solves the problem, or using:
 
 
 then, selecting the 'old' mirror [0] in the displayed window.
-There are more options to install the packages. Always R-cran will indicate the problem in the terminal, for example, a specific packages in needed for the instalation of one specific package. In that case, you need to install this before continue.
+There are more options to install the packages. Always R-cran will indicate the problem in the terminal, for example, a specific package must be installed before continious with the instalation of the specific package. In that case, you need to install the requested package before continnue.
 
-From Python, you need to install PynPoint. You can follow the steps from the oficial webpage: https://pynpoint.readthedocs.io/en/latest/installation.html
+For the Python codes, you need to install PynPoint. You can follow the steps from the oficial webpage: https://pynpoint.readthedocs.io/en/latest/installation.html
 In addition, you must have installed:
+
 - matplotlib
 - ephem
 - numpy
+
 You can install in Linux, for exmaple, using the following commands:
 
 .. code-block:: bash
