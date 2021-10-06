@@ -3,7 +3,8 @@ CenteR core files used in the main code sequence:
 
 - Processing_Data_v10.R / Processing_Data_v11.R
    Program to correct the files by cosmetics. The program do not recognize both photometric and science observations with more than 2 different exposure times.
-   The program follow the next path: reduced the data for cosmetics, construct a master file containing the information of the FITS files, compute an aproximation of the circular aperture center, compute the sky subtraction (frames closest in time are selected for), and finish with the pseudo-Zernike moments decomposition (noralize and unormalize torus S/N and Homogeneity), constructing a final file called 'Total_Final_Info_Red.txt'
+   The program follow the next path: reduced the data for cosmetics, construct a master file containing the information of the FITS files, 
+   compute an aproximation of the circular aperture center, compute the sky subtraction (frames closest in time are selected for), and finish with the pseudo-Zernike moments decomposition (noralize and unormalize torus S/N and Homogeneity), constructing a final file called 'Total_Final_Info_Red.txt'
 
 
 - Fitting_2D_Nor_v8.R
