@@ -118,7 +118,7 @@ some packages (astro, h5, doParallel) could have some problems with the instalat
 In general, using the source-package solves the problem, or using:
 install.packages('astro')
 then, selecting the 'old' mirror [0] in the displayed window.
-There are more options to install the packages. Always R-cran will indicate the problem in the terminal, for example, a specific packages in needed for the instalation of one specific package. In that case, you need to install this before continue.
+There are more options to install the packages. Always R-cran will indicate the problem in the terminal, for example, a specific packages in needed for the instalation of one specific package. In that case, you need to install that package before continue.
 
 From Python, you need to install PynPoint. You can follow the steps from the oficial webpage: https://pynpoint.readthedocs.io/en/latest/installation.html
 In addition, you must have installed:
