@@ -11,16 +11,16 @@ library(doParallel)
 library(h5)
 
 # Path to the directory that contain the CenteR core files
-path.pip<-"/home/ngodoy/nas/NACO/Processing/Pipelines/"
+path.pip<-"/path/to/centeR/"
 # Path to the raw data directory
-path.data2<-"/home/ngodoy/nas/NACO/raw_data/RCrA_a/data_with_raw_calibs/"
+path.data2<-"/data/with/raw/calibs/"
 # Path to the work-area directory, where CenteR will generates all the outputs and pre-processes files
-work.area2<-"/home/ngodoy/nas/NACO/Processing/RCrA_a_p/"
+work.area2<-"/work/area/"
 
 # Coordinates of the target (for example, in ICRS J2015). This coordinates are used to validate the
 # identification of files (sky/science), or to identify both (in cases of older FITS files)
-ra2<- "19:01:53.6850227874" # RA
-dec2<-"-36:57:08.145519972" # DEC
+ra2<- "00:00:00.0000" # RA
+dec2<-"-00:00:00.0000" # DEC
 
 path.data<-path.data2
 work.area<-work.area2
