@@ -14,7 +14,7 @@ Introduction
 
 Requirements
 ------------
-``CenteR`` is based on R-cran, and use PynPoint for the principal component analysis and de-rotate and stack the frames. ``CenteR`` pipeline provides the registration adnd selection of frames, and both the star location and the AGPM position. Different stategies are carry out for the principal component analysis and de-rotate and stack the frames, using different centers in both steps, and the use of the entire datacube or the option of using frame selection.
+``CenteR`` is based on R-cran, and use PynPoint for the principal component analysis and de-rotate and stack the frames. ``CenteR`` pipeline provides the registration and selection of frames, and both the star location and the AGPM position. Different stategies are carry out for the principal component analysis and de-rotate and stack the frames, using different centers in both steps, and the use of the entire datacube or the option of using frame selection.
 The R-cran, Python and PynPoint instalation and the R-cran packages instalation are summary in Pipeline_and_codes/README_files.txt 
 
 Using ``CenteR``
